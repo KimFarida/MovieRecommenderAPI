@@ -36,8 +36,8 @@ The API is built using .NET 6 and ASP.NET Core, and it includes integration with
 
 ### Installation
 
-1. Clone the repository: `git clone https://github.com/your-username/movie-recommender-api.git`
-2. Navigate to the project directory: `cd movie-recommender-api`
+1. Clone the repository: `git clone https://github.com/KimFarida/MovieRecommenderAPI.git`
+2. Navigate to the project directory: `cd MovieRecommenderAPI`
 3. Build the project: `dotnet build`
 4. Run the API: `dotnet run`
 
@@ -51,19 +51,22 @@ You can interact with the API using a tool like [Postman](https://www.postman.co
 
 - Get movie recommendations for user 1:
 `GET /api/Movie/recommendations/1`
+    ![Screenshot](https://github.com/KimFarida/MovieRecommenderAPI/blob/main/img/Screenshot%202023-06-29%20at%2006.42.47.png)
 
 - Get details of a movie with ID 123:
   `GET /api/Movie/id/123`
+  ![Screenshot](https://github.com/KimFarida/MovieRecommenderAPI/blob/main/img/Screenshot%202023-06-29%20at%2006.43.55.png)
 
 - Get movies of the "Action" genre:
 `GET api/Movie/genre/Action`
+![Screenshot](https://github.com/KimFarida/MovieRecommenderAPI/blob/main/img/Screenshot%202023-06-29%20at%2006.44.48.png)
 
 - Get available genres:
 `GET /api/Movie/genres`
-
+![Screenshot](https://github.com/KimFarida/MovieRecommenderAPI/blob/main/img/Screenshot%202023-06-29%20at%2006.46.27.png)
 - Search for movies with the title "Star Wars":
 `GET /api/Movie/search?query=Star Wars`
-
+![Screenshot](https://github.com/KimFarida/MovieRecommenderAPI/blob/main/img/Screenshot%202023-06-29%20at%2006.47.47.png)
 
 ## License
 
