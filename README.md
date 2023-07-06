@@ -37,7 +37,7 @@ The API is built using .NET 6 and ASP.NET Core, and it includes integration with
 ### Installation
 
 1. Clone the repository: `git clone https://github.com/KimFarida/MovieRecommenderAPI.git`
-2. Navigate to the project directory: `cd MovieRecommenderAPI`
+2. Navigate to the project directory: `cd MovieRecommenderAPI/MovieRecommenderAPI`
 3. Build the project: `dotnet build`
 4. Run the API: `dotnet run`
 
