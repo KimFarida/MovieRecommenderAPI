@@ -29,12 +29,12 @@ app.UseRouting();
 
 app.UseEndpoints(endpoints =>
 {
-    // // Redirect root URL to the Swagger UI
-    // endpoints.MapGet("/", context =>
-    // {
-    //     context.Response.Redirect("/swagger/index.html");
-    //     return Task.CompletedTask;
-    // });
+    // Redirect root URL to the Swagger UI
+    endpoints.MapGet("/", context =>
+    {
+        context.Response.Redirect("/swagger/index.html");
+        return Task.CompletedTask;
+    });
     endpoints.MapControllers();
 });
 
